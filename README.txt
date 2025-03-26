@@ -5,7 +5,7 @@ Objective:
 The objective of this study is to build a classification model that predicts the weather type using a combination of meteorological, atmospheric, and environmental attributes. By identifying the most influential features, this research aims to enhance the understanding of weather patterns, improve forecasting accuracy, and aid decision-making in weather-dependent domains such as agriculture, transportation, and disaster management.
 
 Target Variable:
-*Weather Type* - This variable categorizes weather conditions into specific types, serving as the classification target for our model.
+Weather Type - This variable categorizes weather conditions into specific types, serving as the classification target for our model.
 
 Features:
 The dataset includes 14 predictive attributes categorized into four main groups, which will be utilized to predict the weather type.
