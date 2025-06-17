@@ -1,9 +1,13 @@
-##Research Question:
+
+## Project Overview
+
+Research Question:
 "How effectively can a combination of meteorological attributes, atmospheric conditions, and visibility factors predict weather type, and which features play the most significant role in distinguishing between different weather categories?"
 
 Objective:
 The objective of this study is to build a classification model that predicts the weather type using a combination of meteorological, atmospheric, and environmental attributes. By identifying the most influential features, this research aims to enhance the understanding of weather patterns, improve forecasting accuracy, and aid decision-making in weather-dependent domains such as agriculture, transportation, and disaster management.
 
+## Dependant and Independant Variables 
 Target Variable:
 Weather Type - This variable categorizes weather conditions into specific types, serving as the classification target for our model.
 
@@ -39,7 +43,7 @@ Excluded Variables:
 Dew Point: A metric indicating the temperature at which air becomes saturated with moisture, excluded due to redundancy.
 Wind Chill: The perceived decrease in air temperature due to wind, excluded for its lack of direct predictive value for weather type classification.
 
-Conclusion:
+## Conclusions and models used
 After hyperparameter tuning, the results show improved model performance, with significant variations across different algorithms.
 
 Logistic Regression achieved a training accuracy of 0.893 and a test accuracy of 0.905, which indicates a good fit to the data with minimal overfitting. The relatively small gap between training and test accuracy suggests the model generalizes well.
