@@ -61,3 +61,4 @@ Decision Tree showed training accuracy of 1.000 and test accuracy of 0.945, simi
 Support Vector Machine (SVM) recorded training accuracy of 0.909 and test accuracy of 0.922, with a relatively small gap between the two, indicating a well-balanced model that generalizes well after hyperparameter tuning.
 
 In conclusion, Gradient Boosting continues to be the best performer, with a minimal gap between training and test accuracies. Random Forest and Decision Tree show potential overfitting due to the perfect training accuracy, but they still perform well on the test set. KNN and Logistic Regression provide solid and reliable performance, while Naive Bayes remains the weakest performer, even after hyperparameter tuning.
+
