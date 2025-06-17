@@ -38,3 +38,22 @@ Excluded Variables:
 
 Dew Point: A metric indicating the temperature at which air becomes saturated with moisture, excluded due to redundancy.
 Wind Chill: The perceived decrease in air temperature due to wind, excluded for its lack of direct predictive value for weather type classification.
+
+Conclusion:
+After hyperparameter tuning, the results show improved model performance, with significant variations across different algorithms.
+
+Logistic Regression achieved a training accuracy of 0.893 and a test accuracy of 0.905, which indicates a good fit to the data with minimal overfitting. The relatively small gap between training and test accuracy suggests the model generalizes well.
+
+K-Nearest Neighbors (KNN) showed training accuracy of 0.930 and test accuracy of 0.918, demonstrating a solid performance with a small difference between training and test accuracies, indicating it is a reliable model that generalizes well.
+
+Naive Bayes had training accuracy of 0.813 and test accuracy of 0.818, suggesting that despite hyperparameter tuning, it is still underperforming compared to other models. However, it does maintain a close match between training and test accuracy, implying it is not overfitting but just less effective at capturing the complexity of the data.
+
+Gradient Boosting demonstrated excellent performance, with a training accuracy of 0.963 and test accuracy of 0.944, indicating that the model is highly effective with a very small drop in performance from training to test data, showing that it has been tuned for optimal performance and generalizes well.
+
+Random Forest achieved training accuracy of 1.000 and test accuracy of 0.950, suggesting potential overfitting, as the model perfectly fits the training data. However, the high test accuracy indicates that it is still able to generalize effectively, even if overfitting is a concern.
+
+Decision Tree showed training accuracy of 1.000 and test accuracy of 0.945, similar to Random Forest. The perfect training accuracy indicates overfitting, but it still performs well on the test data, though tuning may be required to reduce overfitting further.
+
+Support Vector Machine (SVM) recorded training accuracy of 0.909 and test accuracy of 0.922, with a relatively small gap between the two, indicating a well-balanced model that generalizes well after hyperparameter tuning.
+
+In conclusion, Gradient Boosting continues to be the best performer, with a minimal gap between training and test accuracies. Random Forest and Decision Tree show potential overfitting due to the perfect training accuracy, but they still perform well on the test set. KNN and Logistic Regression provide solid and reliable performance, while Naive Bayes remains the weakest performer, even after hyperparameter tuning.
